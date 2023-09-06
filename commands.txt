@@ -1,2 +1,5 @@
-gqlgen tools generator:
+init gqlgen tools generator:
 printf '// +build tools\npackage tools\nimport (_ "github.com/99designs/gqlgen"\n _ "github.com/99designs/gqlgen/graphql/introspection")' | gofmt > tools.go
+
+generate gqlgen:
+go run github.com/99designs/gqlgen generate
