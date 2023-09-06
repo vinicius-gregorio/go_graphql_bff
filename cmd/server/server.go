@@ -8,6 +8,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
+
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/vinicius-gregorio/go_graphql_bff/graph"
 	"github.com/vinicius-gregorio/go_graphql_bff/internal/database"
